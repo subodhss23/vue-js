@@ -4,7 +4,12 @@ var app = new Vue({
         product: 'Socks',
         image: './socks.jpg',
         link: 'https://www.google.com',
-        description: 'do not buy this socks',
-        inventory: 0
+        inStock: true,
+        details: [
+            "80% cotton", "20% polyster", "Gender-neutral"
+        ],
+        sizes: [
+            "small", "medium", "large", "extra-large"
+        ]
     }
 })
